@@ -1,0 +1,16 @@
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+
+
+  {
+    
+    "fullName": "Abdelghani Bensalih",
+    "email": "abdelghaniben40@gmail.com",
+    "phone": "+212 6 12 34 56 78",
+    "service": "IPTV",
+    "plan": "Pack Infinity",
+    "duration": "6 mois",
+    "preferredContact": "Email",
+    "message": "Je suis intéressé."
+  }
+
