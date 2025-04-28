@@ -74,8 +74,8 @@ const pricingPlans = [
 ];
 
 mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
 }).then(async () => {
   await PricingPlan.deleteMany({});
   await PricingPlan.insertMany(pricingPlans);
